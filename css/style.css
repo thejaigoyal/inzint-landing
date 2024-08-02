@@ -1,0 +1,265 @@
+/* Custom styles for this template */
+body {
+  background-color: rgb(13, 14, 17);
+  color: #fff;
+  font-family: "Inter", sans-serif; /* Use Inter font */
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+:root {
+  --primary-color: #fc5546; /* Primary color (blue) */
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.w-90 {
+  width: 90%;
+}
+a.logo img {
+  width: 120px;
+}
+.custom-button {
+  background: linear-gradient(-18.2429deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.08) 100%);
+  border-radius: 13px;
+  padding: 10px 25px;
+}
+.header {
+  padding: 20px 0;
+}
+ul.navbar-nav li {
+  padding: 0 15px;
+}
+.header .navbar-brand {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+.header .navbar-nav {
+  margin: 0 auto;
+}
+.header .nav-link {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.header .btn {
+  margin-left: 20px;
+}
+.main-banner {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+span.badge {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  padding: 3px 8px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.main-banner h1 {
+  font-size: 67px;
+  line-height: 70px;
+}
+
+.featured-content button:hover {
+  background: #333 !important;
+}
+.btn-subscribe:hover {
+  background-color: #000; /* Darker blue on hover */
+  color: var(--primary-color);
+}
+.banner-img,
+.banner-img img {
+  width: 100%;
+}
+.banner-img img {
+  margin-top: -300px;
+}
+section#features {
+  background-color: rgb(246, 247, 250);
+  border-radius: 30px 30px 0 0;
+  padding: 140px 0 50px 0;
+  z-index: 9;
+  position: relative;
+}
+#faq {
+  padding-top: 50px;
+  border-radius: 0 0px 30px 30px;
+}
+.testimonial-section {
+  background-color: rgb(246, 247, 250);
+  padding: 50px 0 80px 0;
+}
+.bg-dark-badge {
+  background-color: rgba(58, 59, 59, 0.08) !important;
+}
+.text-dark-gray,
+.accordion-button:not(.collapsed) {
+  color: rgb(13, 14, 17);
+}
+.text-light-gray {
+  color: rgb(116, 119, 129);
+}
+.featured-left {
+  max-width: 350px;
+  width: 100%;
+}
+.featured-right {
+  max-width: 500px;
+  width: 100%;
+}
+.featured-card {
+  border-radius: 20px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.featured-content button {
+  background: var(--primary-color);
+  font-weight: 500;
+  padding-left: 30px;
+  color: #fff;
+  padding-right: 30px;
+}
+.swiper-container {
+  overflow: hidden; /* Prevent overflow */
+  width: 100%; /* Ensure full width */
+  height: 150px; /* Auto height */
+  position: relative; /* Positioning for children */
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: rgb(246, 247, 250);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-author img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.pricing-table {
+  border-radius: 10px;
+  padding: 30px 30px 10px 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Light box shadow for other tables */
+}
+
+.pricing-table.dark {
+  background-color: #333; /* Dark background for the center table */
+  color: #fff; /* Light text color */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Darker box shadow for the center table */
+}
+.pricing-table li {
+  border-color: #d7d7d7 !important;
+}
+.pricing-table .plan {
+  text-align: center;
+}
+
+.pricing-table .plan:last-child {
+  border-bottom: none; /* Remove border bottom from the last plan */
+}
+
+.pricing-table .plan h3 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.pricing-table .plan .price {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pricing-table .plan ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.pricing-table .plan ul li {
+  padding: 5px 0;
+}
+.fs-15 {
+  font-size: 15px;
+}
+button.accordion-button.collapsed {
+  border: none !important;
+  background: transparent !important;
+}
+button.accordion-button {
+  background: transparent !important;
+  border: none !important;
+}
+
+button.accordion-button {
+  border: none !important;
+  font-weight: 600;
+}
+
+button.accordion-button {
+  padding: 20px 0 !important;
+}
+button.accordion-button:focus {
+  box-shadow: none !important;
+}
+p.accordion-body {
+  padding: 20px 0;
+}
+.accordion-item {
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0 !important;
+}
+button.accordion-button.collapsed {
+  padding: 20px 0;
+}
+section#blog .main-banner {
+  padding: 0;
+}
+.copyright {
+  border-color: #505050 !important;
+}
+.fadeIn {
+  animation: fadeInAnimation 1s ease-in-out forwards;
+}
+
+/* Define keyframes for the fadeIn animation */
+@keyframes fadeInAnimation {
+  from {
+      opacity: 0;
+      transform: translateY(50px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .main-banner h1 {
+      font-size: 50px;
+      line-height: 60px;
+  }
+  .banner-img img {
+      margin-top: -80px;
+  }
+}

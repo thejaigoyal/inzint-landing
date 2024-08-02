@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Inzint</title>
+      <link rel="icon" href="images/inzint-favicon.png" />
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+      <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   </head>
+   <body>
+      <header class="header">
+         <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+               <a class="navbar-brand logo" href="#"><img src="images/logo.png" alt="Logo" /></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                  <ul class="navbar-nav">
+                     <li class="nav-item active">
+                        <a class="nav-link text-white" href="#" onclick="scrollToSection('home', event)">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link text-white" href="#" onclick="scrollToSection('features', event)">Features</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link text-white" href="#" onclick="scrollToSection('faq', event)">FAQs</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link text-white" href="#" onclick="scrollToSection('blog', event)">Blog</a>
+                     </li>
+                  </ul>
+                  <a class="btn custom-button btn-outline-secondary text-white" href="https://calendly.com/jaideepgoyal/30-minute-discussion?back=1&month=2024-07" target="_blank">Let's Make Magic - Book Your Call!</a>
+               </div>
+            </nav>
+         </div>
+      </header>
+      <section id="home" class="fadeIn">
+         <div class="container">
+            <div class="main-banner">
+               <div class="row justify-content-center">
+                  <div class="col-md-8 text-center">
+                     <span class="badge text-dark-gray-emphasis">AI Technology</span>
+                     <h1>Unleash the Power of AI</h1>
+                     <p class="fs-20 w-90 m-auto pb-3 pt-3">
+                        Extraordinary solutions crafted and curated by experts. We
+                        twirl your ideas into a new agenda of your business.
+                     </p>
+                  </div>
+                  <div class="col-md-12">
+                     <div class="banner-img">
+                        <img src="images/banner.png" alt="Banner" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="features" class="fadeIn">
+         <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-md-12 text-center">
+                  <span class="badge text-dark-gray-emphasis text-dark-gray bg-dark-badge">Features</span>
+                  <h2 class="text-dark-gray">Revolutionize Your Workflow</h2>
+               </div>
+            </div>
+            <div class="row pt-5">
+               <div class="col-md-6">
+                  <div class="featured-card text-center px-5">
+                     <img src="images/banner3.png" class="pb-4 featured-left" />
+                     <div class="featured-content text-left pb-3">
+                        <h5 class="text-dark-gray">Increase customer satisfaction rate by 90%
+                        </h5>
+                        <p class="text-light-gray fs-15 semibold w-90">The user experience reflects the entirety of end-users experiences as they communicate with a product or service. These expectations include effectiveness, usability, and taking UX into consideration. Our AI helps in keeping an eye on quality control, asking questions, and encouraging strong customer cooperation.</p>
+                        <button type="submit" class="btn btn-subscribe mb-2">Get Started</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="featured-card text-center pt-5 pl-5 pr-0 pb-0">
+                     <div class="featured-content text-left pb-4">
+                        <h5 class="text-dark-gray">Reduce customer churn by 50%
+                        </h5>
+                        <p class="text-light-gray fs-15 w-90">We make sure to know what’s on our customer’s mind by capturing their feedback either through satisfaction surveys. From cohort analysis and conversion funnels to profile data and uninstall tracking, we can help with all the behavioral analytics you could hope for.
+                        </p>
+                        <button type="submit" class="btn btn-subscribe mb-2">Get Started</button>
+                     </div>
+                     <img src="images/banner-2.png" class="featured-right" />
+                  </div>
+               </div>
+               <div class="col-md-12">
+                  <div class="featured-card text-center pt-5 pl-5 pr-0 pb-0">
+                     <img src="images/featured-3.png" class="featured-right pb-4" />
+                     <div class="featured-content text-center pb-5">
+                        <h5 class="text-dark-gray">Risk assessment and fraud detection to eliminate scam by 70%
+
+                        </h5>
+                        <p class="text-light-gray m-auto fs-15 w-50">We use various machine learning models to filter through large datasets, identifying suspicious activities by recognizing patterns and anomalies. As these algorithms continuously learn from new data, they become more proficient at predicting and preventing fraudulent user behavior itself. 
+                        </p>
+                        <button type="submit" class="btn btn-subscribe mt-4">Get Started</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="testimonials" class="testimonial-section fadeIn">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-md-6">
+                  <div class="featured-content text-left pb-3">
+                     <span class="badge text-dark-gray-emphasis text-dark-gray bg-dark-badge">Testimonials</span>
+                     <h3 class="text-dark-gray pt-3">What Customers Say</h3>
+                     <p class="text-light-gray semibold fs-15">By analyzing user interactions, chat AI can help businesses identify trends and patterns, making it easier to tailor products.</p>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="swiper-container">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <div class="testimonial text-dark-gray">
+                              <div class="testimonial-content text-left">
+                                 <p class="fs-16">
+                                    It was great working with him! He is proactive in finding solutions but also plot out product roadmap. End to end ownership.
+                                 </p>
+                              </div>
+                              <div class="testimonial-author d-flex align-items-center">
+                                 <div class="ml-1">
+                                    <p class="text-left m-0 fs-13"><strong>Junyu Yang</strong></p>
+                                    <p class="text-light-gray fs-12 m-0">Chief Manager</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="testimonial text-dark-gray">
+                              <div class="testimonial-content text-left">
+                                 <p class="fs-16">
+                                    Amazing work! Highly recommend. I couldn't be happier with the results. Incredibly skilled and knowledgeable and their attention to detail was impressive.
+                                 </p>
+                              </div>
+                              <div class="testimonial-author d-flex align-items-center">
+                                 <div class="ml-1">
+                                    <p class="text-left m-0 fs-13"><strong>Marie Walton-Mahon</strong></p>
+                                    <p class="text-light-gray fs-12 m-0">Founder : Progressing Ballet Technique</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="testimonial text-dark-gray">
+                              <div class="testimonial-content text-left">
+                                 <p class="fs-16">
+                                    I hired Inzint for what started off as a three month project, and is now an ongoing venture going on a year. The work is excellent quality, and they have always been accommodating when something was needed on short notice or required overtime. Highly recommended!
+                                 </p>
+                              </div>
+                              <div class="testimonial-author d-flex align-items-center">
+                                 <div class="ml-1">
+                                    <p class="text-left m-0 fs-13"><strong>Boris Wraxler</strong></p>
+                                    <p class="text-light-gray fs-12 m-0">Co-Founder : NewsEngine</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="testimonial text-dark-gray">
+                              <div class="testimonial-content text-left">
+                                 <p class="fs-16">
+                                    It was a great experience working with Vikas from the Inzint team. He helped us build our API platform from scratch using the latest technologies. Vikas was approachable and showed deep expertise in building and architecting complex software components. We highly recommend Vikas and Inzint for any software development projects!
+                                 </p>
+                              </div>
+                              <div class="testimonial-author d-flex align-items-center">
+                                 <div class="ml-1">
+                                    <p class="text-left m-0 fs-13"><strong>Abhi Mahule</strong></p>
+                                    <p class="text-light-gray fs-12 m-0">CTO : Vyrill</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Add more slides as needed -->
+                     </div>
+                     <!-- Add Pagination -->
+                     <div class="swiper-pagination"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="faq" class="testimonial-section fadeIn">
+         <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-md-8 text-center m-auto">
+                  <span class="badge text-dark-gray-emphasis text-dark-gray bg-dark-badge">FAQ </span>
+                  <h2 class="text-dark-gray">
+                     Frequently Asked Questions
+                  </h2>
+                  <div class="accordion pt-5" id="accordionExample">
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                           <button class="accordion-button text-dark-gray" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                           Can AI be used for social good?
+                           </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                           <p class="accordion-body fs-15 text-left">
+                              Absolutely. AI is used to address societal challenges, such as healthcare improvements, disaster response, climate modeling, and poverty alleviation.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="accordion" id="accordionExample">
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                           <button class="accordion-button text-dark-gray" type="button" data-bs-toggle="collapse" data-bs-target="#collapsetwo" aria-expanded="true" aria-controls="collapseOne">
+                           What are the ethical considerations in AI development?
+                           </button>
+                        </h2>
+                        <div id="collapsetwo" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                           <p class="accordion-body fs-15 text-left">
+                              Ethical AI development involves addressing issues like bias in algorithms, data privacy, transparency, accountability, and ensuring AI benefits humanity without causing harm.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="accordion" id="accordionExample">
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                           <button class="accordion-button text-dark-gray" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethree" aria-expanded="true" aria-controls="collapseOne">
+                           How does AI impact privacy and ethics?
+                           </button>
+                        </h2>
+                        <div id="collapsethree" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                           <p class="accordion-body fs-15 text-left">
+                              AI raises concerns about data privacy, bias in algorithms, and the ethical use of AI. Regulations and ethical guidelines are being developed to address these issues.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="accordion" id="accordionExample">
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                           <button class="accordion-button text-dark-gray" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="true" aria-controls="collapseOne">
+                           Can AI replace human creativity and intuition?
+                           </button>
+                        </h2>
+                        <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                           <p class="accordion-body fs-15 text-left">
+                              AI can assist in creative tasks and data-driven decisions but does not replicate human creativity and intuition.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Add more accordion items as needed -->
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="blog" class="pb-5 fadeIn">
+         <div class="container">
+            <img src="images/bottom-banner.png" class="w-50" />
+            <div class="row justify-content-between align-items-center">
+               <div class="col-md-8">
+                  <div class="main-banner">
+                     <h1>Your shortcut to everything
+                     </h1>
+                     <p class="fs-20">Visualize, communicate, and iterate on wireframes and prototypes in minutes. Empower your industries with AI!
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer class="text-light py-4">
+         <div class="container">
+            <div class="row pt-5">
+               <!-- Logo column -->
+               <div class="col-md-6">
+                  <a class="navbar-brand logo" href="#"><img src="images/logo.png" alt="Logo" /></a>
+               </div>
+               <!-- Menu columns -->
+               <div class="col-md-6">
+                  <div class="row">
+                     <div class="col-sm-4">
+                        <h6 class="pb-2">Company</h6>
+                        <ul class="list-unstyled">
+                           <li class="pb-2"><a href="https://inzint.com/about-us/" class="text-light-gray text-decoration-none" target="_blank">About</a></li>
+                           <li class="pb-2"><a href="https://inzint.com/career/" class="text-light-gray text-decoration-none" target="_blank">Careers</a></li>
+                        </ul>
+                     </div>
+                     <div class="col-sm-4">
+                        <h6 class="pb-2">Experties</h6>
+                        <ul class="list-unstyled">
+                           <li class="pb-2"><a href="https://inzint.com/services/" class="text-light-gray text-decoration-none" target="_blank">Services</a></li>
+                           <li class="pb-2"><a href="https://inzint.com/our-work/" class="text-light-gray text-decoration-none" target="_blank">Portfolio </a></li>
+                        </ul>
+                     </div>
+                     <div class="col-sm-4">
+                        <h6 class="pb-2">Contact Us</h6>
+                        <ul class="list-unstyled">
+                           <li class="pb-2"><a href="https://www.google.co.in/maps/place/111,+B+Block+Rd,+B+Block,+Sector+65,+Noida,+Uttar+Pradesh+201307/@28.6141857,77.3829172,17z/data=!3m1!4b1!4m5!3m4!1s0x390cef8cf2b59ee1:0xcc6ea10de8687c9b!8m2!3d28.6141857!4d77.3854921?entry=ttu" class="text-light-gray text-decoration-none" target="_blank">B-111, B Block, Sector 65, Noida, U.P. 201301
+                              </a>
+                           </li>
+                           <li class="pb-2"><a href="mailto:contact@inzint.com" class="text-light-gray text-decoration-none">contact@inzint.com </a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <!-- Empty column for spacing -->
+            </div>
+            <div class="row mt-4">
+               <!-- Copyright text column -->
+               <div class="col text-center border-top border-2 copyright p-0">
+                  <p class="text-light-gray text-left pt-4 fs-13">Copyright © 2020-2024 Inzint</p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script>
+         var swiper = new Swiper(".swiper-container", {
+             direction: "horizontal", // Default direction for smaller screens (mobile)
+             loop: true, // Infinite loop
+             autoplay: {
+                 delay: 100, // Autoplay interval in milliseconds
+                 disableOnInteraction: false, // Continue autoplay even when user interacts with slider
+             },
+             speed: 10000, // Slide transition speed in milliseconds
+             slidesPerView: "auto", // Adjust number of slides per view based on container size
+             spaceBetween: 30, // Adjust space between slides if necessary
+         
+             // Responsive breakpoints
+             breakpoints: {
+                 // When window width is <= 991px (tablet and smaller desktop screens)
+                 991: {
+                     direction: "horizontal", // Change to horizontal direction
+                     slidesPerView: "auto", // Adjust slides per view
+                     spaceBetween: 20, // Adjust space between slides if needed
+                 },
+                 // When window width is > 991px (larger desktop screens)
+                 992: {
+                     direction: "vertical", // Change to vertical direction
+                     slidesPerView: 1, // Show one slide per view
+                     spaceBetween: 30, // Adjust space between slides if needed
+                 },
+                 // Add more breakpoints as necessary
+             },
+         });
+         
+         $(document).ready(function () {
+             // Function to add fade-in effect to sections when they come into view
+             $(window).scroll(function () {
+                 $(".section").each(function () {
+                     var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                     var bottom_of_window = $(window).scrollTop() + $(window).height();
+                     if (bottom_of_window > bottom_of_object) {
+                         $(this).animate({ opacity: "1" }, 500);
+                     }
+                 });
+             });
+         });
+         
+         // Smooth scroll to section
+         function scrollToSection(sectionId, event) {
+             event.preventDefault(); // Prevent default anchor behavior
+             $("html, body").animate(
+                 {
+                     scrollTop: $("#" + sectionId).offset().top,
+                 },
+                 1000
+             ); // Adjust scrolling speed here (1000 = 1 second)
+         }
+      </script>
+   </body>
+</html>
