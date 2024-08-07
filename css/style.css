@@ -262,4 +262,7 @@ section#blog .main-banner {
   .banner-img img {
       margin-top: -80px;
   }
+.featured-card .w-50 {
+    width: 100% !important;
+}
 }
