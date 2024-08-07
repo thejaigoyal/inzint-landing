@@ -127,7 +127,7 @@ section#features {
   margin-bottom: 30px;
 }
 
-.featured-content button {
+.featured-content a {
   background: var(--primary-color);
   font-weight: 500;
   padding-left: 30px;
